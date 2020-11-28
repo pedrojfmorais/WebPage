@@ -4,9 +4,6 @@
  * Facebook: https://fb.com/fh5co
  * URL: https://freehtml5.co
  */
-html {
-	scroll-behavior: smooth;
-}
 /* Fonts */
 @font-face {
   font-family: 'Calisto-MT';
@@ -862,7 +859,15 @@ html {
       .footer-bottom-inner p {
         font-size: 14px;
         margin-bottom: 20px; } }
-		
+
+/*
+new additions
+*/
+
+html {
+	scroll-behavior: smooth;
+}
+
 /**
  * Disable smooth scrolling when users have prefers-reduced-motion enabled
  */
