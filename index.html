@@ -312,12 +312,12 @@
 				</div>
 				<div class="footer-contact-form">
 					<h5>Manda-me um email</h5>
-					<form class="contact-form">
+					<form action="mailto:pedrojfmorais@hotmail.com?subject=Mensagem do site!" method="post" enctype="text/plain" class="contact-form" id="send_mail_form">
 						<div class="contact-form__input">
 							<input type="text" name="name" placeholder="Nome">
 							<input type="email" name="email" placeholder="Email">
 						</div>
-						<textarea></textarea>
+						<textarea form="send_mail_form" name="message" placeholder="Mensagem"></textarea>
 						<input type="submit" name="submit" value="Enviar" class="submit-button">
 					</form>
 				</div>
