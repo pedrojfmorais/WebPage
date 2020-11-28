@@ -762,6 +762,7 @@
   .footer-info .footer-info__left {
     margin-right: 45px; }
     .footer-info .footer-info__left img {
+	  border-radius: 20px;
       margin-bottom: 10px; }
     .footer-info .footer-info__left p {
       color: #c18f59; }
